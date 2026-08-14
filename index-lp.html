@@ -354,7 +354,7 @@
     .chip-1{top:70px}
   }
 .fab{display:none!important}
-.js .rv{opacity:0}
+.rv{opacity:1!important;transform:none!important}
 </style>
 </head>
 <body>
@@ -704,7 +704,7 @@
 
 <script>
 function _ph(){try{parent.postMessage({lph:document.documentElement.scrollHeight},'*')}catch(e){}}
-addEventListener('load',_ph);addEventListener('resize',_ph);setInterval(_ph,800);
+addEventListener('load',_ph);addEventListener('resize',_ph);setInterval(_ph,700);
 try{new ResizeObserver(_ph).observe(document.body)}catch(e){}
 </script>
 </body>
