@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Campanhas ON · Tráfego Pago que enche o WhatsApp do seu negócio</title>
+<meta name="description" content="Agência especialista em tráfego pago para empresas que vendem pra uma região, do comércio de bairro à empresa com várias unidades. Mais clientes no WhatsApp, todo mês.">
+<meta property="og:title" content="Campanhas ON · Tráfego Pago que gera venda">
+<meta property="og:description" content="Mais clientes no WhatsApp do seu negócio, todo mês. Agência especialista em tráfego local.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=70">
+<!--
+  ================= EDITAR ANTES DE PUBLICAR =================
+  1) WhatsApp: troque TODAS as ocorrências de 5564992693685 pelo número real.
+  2) Fotos: os blocos com background de foto usam Unsplash como exemplo. Troque as URLs
+     por fotos reais suas / de clientes / da equipe (procure por: data-foto).
+  3) Prova social: KPIs, case em destaque, depoimentos e prints estão como exemplo — troque por números reais.
+  ===========================================================
+-->
+<style>
+@font-face{font-family:'New Order';font-style:normal;font-weight:400;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/c6ea02ae7c.woff) format('woff')}
+@font-face{font-family:'New Order';font-style:normal;font-weight:500;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/eb730dc1c5.woff) format('woff')}
+@font-face{font-family:'New Order';font-style:normal;font-weight:600;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/998d916537.woff) format('woff')}
+@font-face{font-family:'New Order';font-style:normal;font-weight:700 900;font-display:swap;src:url(https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/30b43f60d2.woff) format('woff')}
+
+  :root{
+    --verde:#023D36;
+    --verde-deep:#01201C;
+    --verde-card:#06413A;
+    --verde-line:rgba(115,160,147,.22);
+    --laranja:#F16722;
+    --laranja-lt:#FF8A4D;
+    --creme:#ECE1D6;
+    --creme-2:#F6F0E8;
+    --sage:#73A093;
+    --wpp:#25D366;
+    --branco:#FFFFFF;
+    --escuro:#15211E;
+    --ink:#2c3a36;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'New Order',system-ui,-apple-system,sans-serif;background:var(--creme);color:var(--escuro);line-height:1.55;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  .wrap{max-width:1160px;margin:0 auto;padding:0 22px}
+  h1,h2,h3{line-height:1.1;letter-spacing:-.025em}
+  img{max-width:100%;display:block}
+  .hl{color:var(--laranja)}
+  .mark{background:linear-gradient(120deg,rgba(241,103,34,.22),rgba(241,103,34,.22));box-shadow:inset 0 -2px 0 rgba(241,103,34,.55);padding:0 3px;border-radius:3px;color:inherit;font-weight:800}
+
+  /* reveal on scroll — gated on .js so content stays visible without JS */
+  .js .rv{opacity:0;transform:translateY(26px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
+  .js .rv.in{opacity:1;transform:none}
+  .rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}
+
+  /* ---------- HEADER ---------- */
+  header{position:sticky;top:0;z-index:100;background:rgba(2,32,28,.85);backdrop-filter:blur(10px);border-bottom:1px solid var(--verde-line)}
+  .header-in{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .brand{display:flex;align-items:center;gap:11px;text-decoration:none}
+  .brand-logo{height:34px;width:auto;display:block}
+  .brand .name{color:var(--creme);font-weight:800;font-size:17px}
+  .brand .name small{display:block;font-weight:600;font-size:9.5px;color:var(--sage);letter-spacing:.18em;text-transform:uppercase}
+  .header-cta{display:inline-flex;align-items:center;gap:8px;background:var(--wpp);color:#fff;text-decoration:none;font-weight:700;font-size:14px;padding:11px 17px;border-radius:11px;box-shadow:0 6px 18px rgba(37,211,102,.32);transition:transform .15s,box-shadow .15s}
+  .header-cta:hover{transform:translateY(-1px);box-shadow:0 9px 24px rgba(37,211,102,.45)}
+  .header-cta .full{display:none}
+  @media(min-width:600px){.header-cta .full{display:inline}.header-cta .short{display:none}}
+
+  /* ---------- CTA BTN ---------- */
+  .cta{display:inline-flex;align-items:center;justify-content:center;gap:11px;background:var(--wpp);color:#fff;text-decoration:none;font-weight:800;font-size:17px;padding:18px 30px;border-radius:14px;box-shadow:0 10px 30px rgba(37,211,102,.4);transition:transform .15s,box-shadow .15s;min-height:56px;line-height:1.15}
+  .cta:hover{transform:translateY(-2px);box-shadow:0 16px 38px rgba(37,211,102,.52)}
+  .cta svg{width:23px;height:23px;flex-shrink:0}
+  .cta.alt{background:var(--laranja);box-shadow:0 10px 30px rgba(241,103,34,.4)}
+  .cta.alt:hover{box-shadow:0 16px 38px rgba(241,103,34,.52)}
+  .cta.dark{background:var(--verde);box-shadow:0 10px 30px rgba(1,32,28,.4)}
+
+  /* floating wpp */
+  .fab{position:fixed;right:18px;bottom:18px;z-index:120;width:60px;height:60px;border-radius:50%;background:var(--wpp);display:grid;place-items:center;box-shadow:0 10px 28px rgba(37,211,102,.5);animation:pulse 2.4s infinite}
+  .fab svg{width:32px;height:32px;fill:#fff}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(37,211,102,.5)}70%{box-shadow:0 0 0 16px rgba(37,211,102,0)}100%{box-shadow:0 0 0 0 rgba(37,211,102,0)}}
+
+  /* ---------- HERO ---------- */
+  .hero{position:relative;background:radial-gradient(120% 90% at 85% 0%,#0a5348 0%,var(--verde) 40%,var(--verde-deep) 100%);color:var(--creme);overflow:hidden;padding:52px 0 64px}
+  .hero::before{content:"";position:absolute;right:-160px;top:-120px;width:520px;height:520px;background:radial-gradient(circle,rgba(241,103,34,.28),transparent 62%);pointer-events:none}
+  .hero::after{content:"";position:absolute;left:-140px;bottom:-160px;width:420px;height:420px;background:radial-gradient(circle,rgba(115,160,147,.18),transparent 65%);pointer-events:none}
+  .hero-grid{position:relative;display:grid;gap:44px;align-items:center}
+  @media(min-width:940px){.hero-grid{grid-template-columns:1.05fr .95fr;gap:36px}.hero{padding:70px 0 88px}}
+  .tag{display:inline-flex;align-items:center;gap:8px;background:rgba(115,160,147,.14);color:#cfe0d9;font-weight:700;font-size:12px;letter-spacing:.06em;text-transform:uppercase;padding:8px 15px;border-radius:999px;margin-bottom:22px;border:1px solid var(--verde-line)}
+  .tag .pin{width:7px;height:7px;border-radius:50%;background:var(--laranja);box-shadow:0 0 0 4px rgba(241,103,34,.2)}
+  .hero h1{font-size:37px;font-weight:900;margin-bottom:18px;letter-spacing:-.03em}
+  @media(min-width:940px){.hero h1{font-size:54px}}
+  .hero .sub{font-size:17.5px;color:#d6ccbf;max-width:520px;margin-bottom:30px}
+  @media(min-width:940px){.hero .sub{font-size:19px}}
+  .hero .cta{margin-bottom:24px}
+  .trust-row{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .avatars{display:flex}
+  .avatars .a{width:38px;height:38px;border-radius:50%;border:2px solid var(--verde);margin-left:-11px;background-size:cover;background-position:center;box-shadow:0 2px 8px rgba(0,0,0,.25)}
+  .avatars .a:first-child{margin-left:0}
+  .trust-txt{font-size:13.5px;color:var(--sage);font-weight:600}
+  .trust-txt b{color:var(--creme)}
+  .trust-txt .stars{color:var(--laranja);letter-spacing:1px}
+
+  /* PHONE MOCKUP */
+    .phone-stage{position:relative;justify-self:center;width:100%;max-width:325px}
+  .phone{position:relative;background:#0a100e;border:12px solid #05100d;border-radius:48px;box-shadow:0 55px 95px rgba(0,0,0,.55),0 0 0 1px rgba(255,255,255,.05),inset 0 0 0 2px rgba(255,255,255,.03);overflow:hidden}
+  .phone::after{content:"";position:absolute;inset:0;border-radius:36px;background:linear-gradient(130deg,rgba(255,255,255,.07),transparent 38%);pointer-events:none;z-index:8}
+  .phone .island{position:absolute;top:13px;left:50%;transform:translateX(-50%);width:98px;height:26px;background:#05100d;border-radius:16px;z-index:7}
+  .wa{background:#0b141a;border-radius:36px;overflow:hidden}
+  .statusbar{display:flex;justify-content:space-between;align-items:center;padding:15px 22px 4px;background:#075e54;color:#fff;font-size:12px;font-weight:700}
+  .statusbar .sic{display:flex;gap:6px;align-items:center}
+  .statusbar .sic svg{width:15px;height:12px;fill:#fff}
+  .wa-top{background:#075e54;padding:6px 12px 12px;display:flex;align-items:center;gap:9px}
+  .wa-top .bk{color:#fff;font-size:22px;line-height:1;margin-right:-3px}
+  .wa-top .av{width:38px;height:38px;border-radius:50%;background:var(--laranja);display:grid;place-items:center;color:#fff;font-weight:900;font-size:14px}
+  .wa-top .who{color:#fff;flex:1;min-width:0}
+  .wa-top .who b{font-size:14px;display:block;line-height:1.2}
+  .wa-top .who small{font-size:11px;color:#9ae3c4}
+  .wa-top .acts{display:flex;gap:15px}
+  .wa-top .acts svg{width:19px;height:19px;fill:#fff;opacity:.95}
+  .wa-body{padding:14px 12px 14px;display:flex;flex-direction:column;gap:7px;min-height:342px;background:#0b141a}
+  .daypill{align-self:center;background:#182a26;color:#9fb3ac;font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:4px 12px;border-radius:8px;margin-bottom:3px}
+  .bub{max-width:82%;padding:6px 9px 5px;border-radius:9px;font-size:12.5px;line-height:1.35;color:#e8f2ee;position:relative;box-shadow:0 1px 1px rgba(0,0,0,.3)}
+  .bub.in{background:#202c33;align-self:flex-start;border-top-left-radius:2px}
+  .bub.out{background:#005c4b;align-self:flex-end;border-top-right-radius:2px}
+  .bub.in::before{content:"";position:absolute;top:0;left:-7px;border:6px solid transparent;border-top-color:#202c33;border-right-width:2px}
+  .bub.out::before{content:"";position:absolute;top:0;right:-7px;border:6px solid transparent;border-top-color:#005c4b;border-left-width:2px}
+  .bub .t{float:right;font-size:9px;color:#8fa3ac;margin:5px 0 0 10px}
+  .bub.out .t{color:#93d3bf}
+  .bub .t .rd{color:#53bdeb;font-weight:700}
+  .typing{align-self:flex-start;background:#202c33;border-radius:9px;padding:10px 12px;display:flex;gap:4px}
+  .typing span{width:6px;height:6px;border-radius:50%;background:#7c8b91;animation:blink 1.3s infinite}
+  .typing span:nth-child(2){animation-delay:.2s}.typing span:nth-child(3){animation-delay:.4s}
+  @keyframes blink{0%,70%,100%{opacity:.25}35%{opacity:1}}
+  .wa-badge{position:absolute;top:-10px;right:-8px;background:var(--laranja);color:#fff;font-weight:800;font-size:12px;padding:5px 11px;border-radius:999px;box-shadow:0 8px 20px rgba(241,103,34,.5);z-index:9;animation:bob 2.6s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+  .float-chip{position:absolute;background:var(--branco);border-radius:14px;padding:10px 13px;box-shadow:0 18px 38px rgba(0,0,0,.3);display:flex;align-items:center;gap:9px;z-index:9}
+  .float-chip .ic{width:30px;height:30px;border-radius:9px;display:grid;place-items:center;flex-shrink:0}
+  .float-chip b{font-size:15px;color:var(--verde);line-height:1;display:block}
+  .float-chip small{font-size:10.5px;color:#889}
+  .chip-1{left:-20px;top:92px}
+  .chip-2{right:-16px;bottom:74px}
+  @media(max-width:400px){.chip-1{left:-6px}.chip-2{right:-6px}}
+
+  /* ---------- TRUST STRIP ---------- */
+  .strip{background:var(--verde-deep);padding:26px 0;border-top:1px solid var(--verde-line)}
+  .strip-lead{text-align:center;color:var(--sage);font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;margin-bottom:18px}
+  .platforms{display:flex;flex-wrap:wrap;gap:12px 14px;justify-content:center}
+  .plat{display:flex;align-items:center;gap:9px;background:rgba(255,255,255,.05);border:1px solid var(--verde-line);border-radius:12px;padding:11px 16px;color:var(--creme);font-weight:700;font-size:14px}
+  .plat svg{width:20px;height:20px;flex-shrink:0}
+
+  /* ---------- SECTIONS ---------- */
+  section{padding:62px 0}
+  @media(min-width:940px){section{padding:88px 0}}
+  .bg-creme{background:var(--creme)}
+  .bg-branco{background:var(--branco)}
+  .bg-verde{background:radial-gradient(120% 100% at 80% 0%,#0a5348,var(--verde) 55%,var(--verde-deep));color:var(--creme)}
+  .eyebrow{display:inline-flex;align-items:center;gap:8px;color:var(--laranja);font-weight:800;font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;margin-bottom:14px}
+  .eyebrow::before{content:"";width:22px;height:2px;background:var(--laranja);border-radius:2px}
+  h2.sec{font-size:29px;font-weight:900;color:var(--verde);margin-bottom:16px;max-width:740px;letter-spacing:-.03em}
+  @media(min-width:940px){h2.sec{font-size:41px}}
+  .bg-verde h2.sec{color:#fff}
+  .lead{font-size:17px;color:#54635e;max-width:620px}
+  .bg-verde .lead{color:#cdc3b6}
+  .center{text-align:center;margin-left:auto;margin-right:auto}
+  .center .eyebrow{justify-content:center}
+
+  /* PROBLEMA */
+  .dor-grid{display:grid;gap:16px;margin-top:38px}
+  @media(min-width:760px){.dor-grid{grid-template-columns:repeat(3,1fr)}}
+  .dor{background:var(--verde-card);border:1px solid var(--verde-line);border-radius:18px;padding:28px 24px;transition:transform .2s,border-color .2s}
+  .dor:hover{transform:translateY(-4px);border-color:rgba(241,103,34,.4)}
+  .dor .ico{width:52px;height:52px;border-radius:14px;background:rgba(241,103,34,.14);display:grid;place-items:center;margin-bottom:16px}
+  .dor .ico svg{width:26px;height:26px;stroke:var(--laranja);fill:none;stroke-width:1.8}
+  .dor h3{font-size:18.5px;color:#fff;margin-bottom:9px;font-weight:800}
+  .dor p{font-size:14.5px;color:#bdb3a6}
+
+  /* SOLUÇÃO */
+  .sol-grid{display:grid;gap:34px;margin-top:40px;align-items:center}
+  @media(min-width:920px){.sol-grid{grid-template-columns:.9fr 1.1fr}}
+  .sol-photo{width:100%;height:auto;max-height:540px;object-fit:cover;object-position:center 30%;border-radius:22px;box-shadow:0 30px 60px rgba(1,32,28,.25)}
+  .steps{display:flex;flex-direction:column;gap:14px}
+  .step{display:flex;gap:18px;align-items:flex-start;background:var(--branco);border-radius:16px;padding:22px;box-shadow:0 3px 16px rgba(2,61,54,.06);border:1px solid rgba(2,61,54,.05)}
+  .step .n{flex-shrink:0;width:48px;height:48px;border-radius:13px;background:var(--verde);color:var(--laranja);display:grid;place-items:center;font-weight:900;font-size:20px}
+  .step h3{font-size:18px;color:var(--verde);margin-bottom:5px;font-weight:800}
+  .step p{font-size:14.5px;color:#5a6863}
+
+  /* RESULTADOS / DASHBOARD */
+  .dash{background:var(--branco);border-radius:22px;padding:22px;box-shadow:0 30px 70px rgba(1,32,28,.14);border:1px solid rgba(2,61,54,.06);margin-top:40px}
+  .dash-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+  .dash-head b{color:var(--verde);font-size:15px;font-weight:800}
+  .dash-head .per{font-size:12px;color:#8a968f;background:var(--creme);padding:5px 11px;border-radius:8px;font-weight:700}
+  .dash-kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-bottom:18px}
+  @media(min-width:620px){.dash-kpis{grid-template-columns:repeat(4,1fr)}}
+  .dk{background:var(--creme-2);border-radius:14px;padding:15px}
+  .dk .lab{font-size:11px;color:#8a968f;font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+  .dk .val{font-size:24px;font-weight:900;color:var(--verde);letter-spacing:-.03em;margin-top:4px}
+  .dk .val.up{color:var(--laranja)}
+  .dk .delta{font-size:11.5px;font-weight:700;color:#2e9e6b;margin-top:2px}
+  .chart{width:100%;height:auto;display:block}
+
+  .kpis{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:26px}
+  @media(min-width:760px){.kpis{grid-template-columns:repeat(4,1fr)}}
+  .kpi{background:var(--branco);border-radius:16px;padding:26px 16px;text-align:center;box-shadow:0 3px 16px rgba(2,61,54,.06);border-top:3px solid var(--laranja)}
+  .kpi .big{font-size:33px;font-weight:900;color:var(--laranja);line-height:1;letter-spacing:-.03em}
+  .kpi .lab{font-size:12.5px;color:#5a6863;font-weight:600;margin-top:8px}
+
+  /* CASE */
+  .case{background:radial-gradient(120% 140% at 90% 0%,#0a5348,var(--verde) 60%,var(--verde-deep));color:var(--creme);border-radius:22px;padding:32px 28px;margin-top:24px;display:grid;gap:22px;align-items:center;overflow:hidden;position:relative}
+  @media(min-width:760px){.case{grid-template-columns:auto 1fr}}
+  .case .num{font-size:56px;font-weight:900;color:var(--laranja);line-height:1;letter-spacing:-.04em;white-space:nowrap}
+  .case .bdg{display:inline-block;background:rgba(241,103,34,.16);color:var(--laranja);font-size:10.5px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:11px}
+  .case h3{font-size:21px;color:#fff;margin-bottom:8px;font-weight:800}
+  .case p{font-size:14.5px;color:#cdc3b6}
+  .cases{display:grid;gap:16px;margin-top:24px}
+  @media(min-width:840px){.cases{grid-template-columns:1fr 1fr}}
+  .cases .case{margin-top:0}
+
+  /* PRINTS */
+  .prints{display:grid;gap:16px;margin-top:24px}
+  @media(min-width:760px){.prints{grid-template-columns:repeat(3,1fr)}}
+  .print-ph{background:repeating-linear-gradient(135deg,#e6dccd,#e6dccd 12px,#e0d5c4 12px,#e0d5c4 24px);border:2px dashed var(--sage);border-radius:16px;min-height:190px;display:grid;place-items:center;text-align:center;padding:20px;color:#7d8b85}
+  .print-ph b{display:block;color:var(--verde);font-size:14px;margin-bottom:6px}
+  .print-ph span{font-size:11.5px}
+
+  /* DEPOIMENTOS */
+  .deps{display:grid;gap:16px;margin-top:38px}
+  @media(min-width:760px){.deps{grid-template-columns:repeat(3,1fr)}}
+  .dep{background:var(--branco);border-radius:18px;padding:26px;box-shadow:0 3px 16px rgba(2,61,54,.06)}
+  .dep .stars{color:var(--laranja);font-size:15px;letter-spacing:2px;margin-bottom:12px}
+  .dep p{font-size:15px;color:#3a4844;font-style:italic;margin-bottom:18px}
+  .dep .who{display:flex;align-items:center;gap:12px}
+  .dep .av{width:46px;height:46px;border-radius:50%;background-color:var(--verde);flex-shrink:0;display:grid;place-items:center;color:#fff;font-weight:800;font-size:18px}
+  .dep .who b{color:var(--verde);font-size:14.5px;display:block}
+  .dep .who small{color:#889;font-size:12.5px}
+  .deps-lead{display:flex;align-items:center;gap:9px;justify-content:center;margin-top:40px;color:var(--verde);font-weight:700;font-size:15px}
+  .deps-lead .wa-dot{width:10px;height:10px;border-radius:50%;background:var(--wpp);box-shadow:0 0 0 4px rgba(37,211,102,.2)}
+  .shots{display:grid;gap:18px;margin-top:22px}
+  @media(min-width:640px){.shots{grid-template-columns:repeat(2,1fr)}}
+  @media(min-width:940px){.shots{grid-template-columns:repeat(3,1fr)}}
+  .shot{margin:0;background:var(--branco);border-radius:18px;overflow:hidden;box-shadow:0 4px 18px rgba(2,61,54,.08);border:1px solid rgba(2,61,54,.05);display:flex;flex-direction:column}
+  .shot-img{background:#0b141a;display:flex;align-items:center;justify-content:center;padding:10px}
+  .shot-img img{width:100%;height:auto;border-radius:8px;display:block}
+  .shot figcaption{padding:15px 18px 17px;display:flex;flex-direction:column;gap:2px}
+  .shot figcaption .stars{color:var(--laranja);font-size:13px;letter-spacing:1px;margin-bottom:3px}
+  .shot figcaption b{color:var(--verde);font-size:15px}
+  .shot figcaption small{color:#889;font-size:12.5px}
+
+  /* OFERTA */
+  .oferta-wrap{display:grid;gap:30px;margin-top:40px;align-items:start}
+  @media(min-width:880px){.oferta-wrap{grid-template-columns:1.1fr .9fr}}
+  .checklist{display:grid;gap:13px}
+  .check{display:flex;gap:15px;align-items:flex-start;background:var(--branco);padding:19px 21px;border-radius:15px;box-shadow:0 3px 14px rgba(2,61,54,.05);transition:transform .18s}
+  .check:hover{transform:translateX(4px)}
+  .check .ck{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:var(--wpp);color:#fff;display:grid;place-items:center;font-weight:900;font-size:15px}
+  .check b{color:var(--verde);font-size:16px;display:block;margin-bottom:2px}
+  .check p{font-size:13.5px;color:#66736e}
+  .oferta-card{background:radial-gradient(130% 120% at 80% 0%,#0a5348,var(--verde) 60%,var(--verde-deep));color:var(--creme);border-radius:22px;padding:34px 28px;position:sticky;top:88px;box-shadow:0 30px 60px rgba(1,32,28,.22);border:1px solid var(--verde-line)}
+  .oferta-card h3{font-size:23px;color:#fff;margin-bottom:12px;font-weight:900}
+  .oferta-card p{font-size:14.5px;color:#cdc3b6;margin-bottom:22px}
+  .oferta-card .cta{width:100%}
+  .oferta-card .mini{font-size:12.5px;color:var(--sage);margin-top:14px;text-align:center;display:flex;align-items:center;justify-content:center;gap:6px}
+
+  /* SOBRE */
+  .sobre-grid{display:grid;gap:34px;margin-top:40px;align-items:center}
+  @media(min-width:920px){.sobre-grid{grid-template-columns:1fr 1fr}}
+  .sobre-photo{width:100%;height:auto;border-radius:22px;box-shadow:0 30px 60px rgba(1,32,28,.35);display:block}
+  .pilares{display:grid;gap:14px;margin-top:26px}
+  .pilar{display:flex;gap:15px;align-items:flex-start;border:1px solid var(--verde-line);border-radius:15px;padding:20px}
+  .pilar .ic{width:44px;height:44px;border-radius:12px;background:rgba(241,103,34,.14);display:grid;place-items:center;flex-shrink:0}
+  .pilar .ic svg{width:22px;height:22px;stroke:var(--laranja);fill:none;stroke-width:1.8}
+  .pilar b{color:#fff;font-size:16.5px;display:block;margin-bottom:4px}
+  .pilar p{font-size:14px;color:#bdb3a6}
+
+  /* PRA QUEM */
+  .quem-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px;margin-top:38px}
+  @media(min-width:820px){.quem-grid{grid-template-columns:repeat(3,1fr)}}
+  .quem{background:var(--branco);border-radius:15px;padding:22px;box-shadow:0 3px 14px rgba(2,61,54,.05);border-bottom:3px solid transparent;transition:border-color .2s,transform .2s}
+  .quem:hover{border-color:var(--laranja);transform:translateY(-3px)}
+  .quem .ic{width:44px;height:44px;border-radius:12px;background:var(--verde);display:grid;place-items:center;margin-bottom:14px}
+  .quem .ic svg{width:22px;height:22px;stroke:var(--laranja);fill:none;stroke-width:1.8}
+  .quem span{font-size:15px;color:var(--verde);font-weight:700;line-height:1.35;display:block}
+
+  /* FAQ */
+  .faq{max-width:780px;margin:38px auto 0}
+  details{background:var(--branco);border-radius:15px;margin-bottom:12px;box-shadow:0 3px 12px rgba(2,61,54,.05);overflow:hidden;border:1px solid rgba(2,61,54,.05)}
+  summary{cursor:pointer;padding:21px 22px;font-weight:700;font-size:16px;color:var(--verde);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+  summary::-webkit-details-marker{display:none}
+  summary .plus{flex-shrink:0;width:28px;height:28px;border-radius:50%;background:var(--creme);color:var(--laranja);display:grid;place-items:center;font-weight:900;font-size:19px;transition:transform .25s}
+  details[open] summary .plus{transform:rotate(45deg);background:var(--laranja);color:#fff}
+  details .ans{padding:0 22px 22px;font-size:14.5px;color:#5a6863;line-height:1.65}
+
+  /* CTA FINAL */
+  .final{background:radial-gradient(120% 130% at 50% 0%,var(--laranja-lt),var(--laranja) 55%,#d4501a);color:#fff;text-align:center;position:relative;overflow:hidden}
+  .final::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 20% 120%,rgba(255,255,255,.18),transparent 45%);pointer-events:none}
+  .final h2{font-size:31px;font-weight:900;color:#fff;margin-bottom:14px;letter-spacing:-.03em}
+  @media(min-width:940px){.final h2{font-size:46px}}
+  .final p{font-size:17px;color:#fff;opacity:.96;max-width:560px;margin:0 auto 30px}
+  .final .mini{margin-top:20px;font-size:14px;color:#fff;opacity:.95;font-weight:600;display:flex;align-items:center;justify-content:center;gap:7px}
+
+  /* FOOTER */
+  footer{background:var(--verde-deep);color:var(--sage);padding:46px 0 40px;text-align:center}
+  footer .flogo{height:46px;width:auto;margin:0 auto 14px;display:block}
+  footer .fname{color:var(--creme);font-weight:800;font-size:16px}
+  footer .slogan{color:var(--sage);font-size:14px;margin:6px 0 20px;font-style:italic}
+  footer .legal{font-size:12px;color:#5f7169;line-height:1.8}
+
+  .aut-grid{display:grid;gap:36px;align-items:center}
+  @media(min-width:900px){.aut-grid{grid-template-columns:1.05fr .95fr}}
+  .aut-badge{display:inline-flex;align-items:center;gap:8px;margin-top:22px;background:var(--verde);color:var(--creme);font-weight:800;font-size:14px;padding:12px 20px;border-radius:999px;border:1px solid var(--verde-line)}
+  .aut-photos{display:grid;grid-template-columns:1fr 1fr;gap:14px;align-items:start}
+  .aut-photos figure{margin:0}
+  .aut-photos img{width:100%;height:auto;border-radius:16px;box-shadow:0 18px 44px rgba(1,32,28,.22);display:block}
+  .aut-photos figcaption{margin-top:8px;font-size:12px;color:var(--sage);text-align:center;font-weight:600}
+
+  .wall{columns:460px;column-gap:16px;margin-top:24px}
+  .wall figure{break-inside:avoid;margin:0 0 16px;background:var(--branco);border-radius:16px;overflow:hidden;box-shadow:0 4px 18px rgba(2,61,54,.08);border:1px solid rgba(2,61,54,.05)}
+  .wall .shot-img{background:#0b141a;padding:9px}
+  .wall .stack{background:#0b141a;padding:9px;display:flex;flex-direction:column;gap:9px}
+  .wall .stack img{width:100%;height:auto;border-radius:8px;display:block}
+  .wall .shot-img img{width:100%;height:auto;border-radius:8px;display:block}
+  .wall figcaption{padding:12px 16px 14px;display:flex;flex-direction:column;gap:1px}
+  .wall figcaption b{color:var(--verde);font-size:14.5px}
+  .wall figcaption small{color:#8a968f;font-size:12px}
+
+  .ccards{display:flex;flex-direction:column;gap:18px;margin-top:22px}
+  .ccard{background:var(--branco);border-radius:18px;overflow:hidden;box-shadow:0 6px 22px rgba(2,61,54,.1);border:1px solid rgba(2,61,54,.06)}
+  .cshot{background:#f4f1ea;padding:10px 10px 0}
+  .cshot img{width:100%;height:auto;border-radius:8px 8px 0 0;display:block}
+  .ccard figcaption{padding:15px 22px 17px;display:flex;flex-wrap:wrap;align-items:center;gap:7px 15px}
+  .ccard .cbadge{background:rgba(241,103,34,.12);color:var(--laranja);font-size:11px;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:5px 12px;border-radius:999px}
+  .ccard b{color:var(--verde);font-size:18px}
+  .ccard p{font-size:15px;color:#54635e;flex:1;min-width:220px;margin:0}
+  .ccard .cnum{color:var(--laranja);font-weight:800}
+
+  .cshot{background:#f1ede4;padding:16px 16px 0}
+  .cshot img{width:100%;height:auto;border-radius:10px 10px 0 0;display:block;box-shadow:0 2px 10px rgba(0,0,0,.1)}
+  .ccard figcaption{padding:20px 24px 24px;text-align:center;display:block}
+  .ccard .cbig{font-size:42px;font-weight:800;color:var(--laranja);line-height:1;letter-spacing:-.03em}
+  .ccard .cunit{font-size:12px;color:#8a968f;font-weight:700;text-transform:uppercase;letter-spacing:.05em;margin-top:3px}
+  .ccard .cinfo{display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:10px;margin:13px 0 7px}
+  .ccard .cinfo b{font-size:20px;color:var(--verde)}
+  .ccard p{font-size:15px;color:#54635e;margin:0;max-width:520px;margin-left:auto;margin-right:auto}
+
+  /* MOBILE-OPT */
+  @media(max-width:600px){
+    section{padding:46px 0}
+    h2.sec{font-size:26px}
+    .hero{padding:40px 0 50px}
+    .oferta-card{position:static}
+    .cshot{overflow-x:auto;-webkit-overflow-scrolling:touch}
+    .cshot img{min-width:540px}
+    .ccard .cbig{font-size:36px}
+    .aut-photos figcaption{font-size:11px}
+    .float-chip{padding:8px 10px}
+    .float-chip b{font-size:13px}
+    .chip-1{top:70px}
+  }
+.fab{display:none!important}
+.js .rv{opacity:0}
+</style>
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <div class="wrap header-in">
+    <a href="#topo" class="brand">
+      <img class="brand-logo" src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/19d45bce7e.jpg" alt="Campanhas ON" width="63" height="34">
+      <div class="name">Campanhas ON<small>Tráfego Pago</small></div>
+    </a>
+    <a class="header-cta" href="https://wa.me/5564992693685?text=Ol%C3%A1!%20Vim%20pelo%20an%C3%BAncio%20e%20quero%20saber%20como%20a%20Campanhas%20ON%20pode%20trazer%20mais%20clientes%20pro%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.78 14.13c-.24.68-1.42 1.32-1.96 1.36-.5.05-.98.24-3.32-.7-2.81-1.11-4.61-3.99-4.75-4.18-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.24-.26.52-.33.7-.33.17 0 .35 0 .5.01.16.01.38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.72 1.18 1.54 1.91 1.06.94 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.69-.8.87-1.08.18-.28.36-.23.61-.14.24.09 1.55.73 1.82.86.27.14.45.21.51.32.07.11.07.63-.17 1.31Z"/></svg>
+      <span class="full">Falar no WhatsApp</span><span class="short">WhatsApp</span>
+    </a>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="topo">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <span class="tag"><span class="pin"></span> Agência de Tráfego Pago<span class="cidade-dyn"></span></span>
+      <h1>O tráfego que já fez <span class="hl">+200 empresas</span> venderem mais.</h1>
+      <p class="sub">A gente coloca sua empresa na frente de quem já procura o que você vende <span class="cidade-txt">na sua região</span> e transforma isso em cliente no seu WhatsApp, todo mês.</p>
+      <a class="cta" href="https://wa.me/5564992693685?text=Ol%C3%A1!%20Vim%20pelo%20an%C3%BAncio%20e%20quero%20falar%20com%20o%20Carlos%20sobre%20tr%C3%A1fego%20pro%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.78 14.13c-.24.68-1.42 1.32-1.96 1.36-.5.05-.98.24-3.32-.7-2.81-1.11-4.61-3.99-4.75-4.18-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.24-.26.52-.33.7-.33.17 0 .35 0 .5.01.16.01.38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.72 1.18 1.54 1.91 1.06.94 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.69-.8.87-1.08.18-.28.36-.23.61-.14.24.09 1.55.73 1.82.86.27.14.45.21.51.32.07.11.07.63-.17 1.31Z"/></svg>
+        Falar com o Carlos
+      </a>
+      <div class="trust-row">
+        <div class="avatars">
+          <div class="a" data-foto style="background-image:url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=80&q=70')"></div>
+          <div class="a" data-foto style="background-image:url('https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=80&q=70')"></div>
+          <div class="a" data-foto style="background-image:url('https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=70')"></div>
+          <div class="a" data-foto style="background-image:url('https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=80&q=70')"></div>
+        </div>
+        <div class="trust-txt"><span class="stars">★★★★★</span><br><b>+200 empresas</b> atendidas desde 2021</div>
+      </div>
+    </div>
+
+    <!-- PHONE MOCKUP -->
+    <div class="phone-stage">
+      <div class="float-chip chip-1">
+        <div class="ic" style="background:rgba(37,211,102,.15)"><svg viewBox="0 0 24 24" width="18" height="18" fill="#25D366"><path d="M12 2a10 10 0 0 0-8.5 15.3L2 22l4.8-1.5A10 10 0 1 0 12 2Z"/></svg></div>
+        <div><b>+18 conversas</b><small>hoje no WhatsApp</small></div>
+      </div>
+      <div class="float-chip chip-2">
+        <div class="ic" style="background:rgba(241,103,34,.15)"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="#F16722" stroke-width="2.2"><path d="M3 17l6-6 4 4 8-8"/><path d="M21 7v5h-5"/></svg></div>
+        <div><b>Custo caindo</b><small>toda semana</small></div>
+      </div>
+      <div class="phone">
+        <div class="island"></div>
+        <div class="wa-badge">3 novas 🔥</div>
+        <div class="wa">
+          <div class="statusbar"><span>9:41</span><span class="sic"><svg viewBox="0 0 24 18"><path d="M1 13h3v4H1zm5-3h3v7H6zm5-4h3v11h-3zm5-4h3v15h-3z"/></svg><svg viewBox="0 0 24 18"><path d="M12 3C7.5 3 3.7 4.8 1 7.6L12 21 23 7.6C20.3 4.8 16.5 3 12 3z"/></svg><svg viewBox="0 0 26 18"><rect x="1" y="4" width="20" height="10" rx="2.5" fill="none" stroke="#fff" stroke-width="1.6"/><rect x="3" y="6" width="15" height="6" rx="1" fill="#fff"/><rect x="22.5" y="7" width="2" height="4" rx="1" fill="#fff"/></svg></span></div>
+          <div class="wa-top">
+            <span class="bk">‹</span>
+            <div class="av">ON</div>
+            <div class="who"><b>Clientes chegando</b><small>online agora</small></div>
+            <div class="acts"><svg viewBox="0 0 24 24"><path d="M17 10.5V7a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-3.5l4 4v-11z"/></svg><svg viewBox="0 0 24 24"><path d="M20 15.5c-1.25 0-2.45-.2-3.57-.57a1 1 0 0 0-1.02.24l-2.2 2.2a15.05 15.05 0 0 1-6.6-6.6l2.2-2.2a1 1 0 0 0 .25-1.02A11.36 11.36 0 0 1 8.5 4.5a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1A17 17 0 0 0 20 20.5a1 1 0 0 0 1-1v-3a1 1 0 0 0-1-1z"/></svg></div>
+          </div>
+          <div class="wa-body">
+            <div class="daypill">HOJE</div>
+            <div class="bub in">Oi! Vi o anúncio de vocês. Ainda tem horário essa semana?<span class="t">09:12</span></div>
+            <div class="bub in">Queria um orçamento, vocês atendem aqui na região?<span class="t">09:26</span></div>
+            <div class="bub out">Bom dia! Temos sim 😊 posso te passar os valores?<span class="t">09:27 <span class="rd">✓✓</span></span></div>
+            <div class="bub in">Perfeito, pode mandar! Quero fechar hoje 🙌<span class="t">09:31</span></div>
+            <div class="bub out">Fechado! Já te mando tudo agora<span class="t">09:32 <span class="rd">✓✓</span></span></div>
+            <div class="typing"><span></span><span></span><span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TRUST STRIP ===== -->
+<div class="strip">
+  <div class="wrap">
+    <p class="strip-lead">A gente coloca você onde seu cliente já está procurando</p>
+    <div class="platforms">
+      <div class="plat"><svg viewBox="0 0 24 24"><path fill="#4285F4" d="M12 11v3.9h5.5c-.24 1.4-1.75 4.1-5.5 4.1a6 6 0 1 1 0-12c1.9 0 3.2.8 3.9 1.5l2.7-2.6C17 3.9 14.7 3 12 3a9 9 0 1 0 0 18c5.2 0 8.6-3.6 8.6-8.7 0-.6-.06-1-.15-1.4H12Z"/></svg> Google Ads</div>
+      <div class="plat"><svg viewBox="0 0 24 24"><path fill="#0866FF" d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-2.9h2.4V9.8c0-2.4 1.4-3.7 3.6-3.7 1 0 2.1.18 2.1.18v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5v1.8h2.6l-.42 2.9h-2.2v7A10 10 0 0 0 22 12Z"/></svg> Meta Ads</div>
+      <div class="plat"><svg viewBox="0 0 24 24"><defs><linearGradient id="ig" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".5" stop-color="#FA7E1E"/><stop offset="1" stop-color="#D62976"/></linearGradient></defs><rect x="2" y="2" width="20" height="20" rx="6" fill="url(#ig)"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="#fff" stroke-width="1.8"/><circle cx="17.2" cy="6.8" r="1.2" fill="#fff"/></svg> Instagram</div>
+      <div class="plat"><svg viewBox="0 0 24 24"><path fill="#F16722" d="M12 2C7.6 2 4 5.6 4 10c0 5.4 7 11.5 7.3 11.8.4.3 1 .3 1.4 0C13 21.5 20 15.4 20 10c0-4.4-3.6-8-8-8Zm0 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6Z"/></svg> Google Meu Negócio</div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== KPIS ===== -->
+<section class="bg-branco" style="padding-top:54px;padding-bottom:54px">
+  <div class="wrap">
+    <div class="kpis">
+      <div class="kpi rv"><div class="big">+200</div><div class="lab">empresas atendidas desde 2021</div></div>
+      <div class="kpi rv d1"><div class="big">+1.900</div><div class="lab">empresários formados no TPE</div></div>
+      <div class="kpi rv d2"><div class="big">100%</div><div class="lab">foco em tráfego que dá retorno</div></div>
+      <div class="kpi rv d3"><div class="big" style="font-size:26px">Subido PRO</div><div class="lab">Carlos é consultor na mentoria do Pedro Sobral</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SOLUÇÃO ===== -->
+<section class="bg-creme">
+  <div class="wrap">
+    <div class="eyebrow">Como funciona</div>
+    <h2 class="sec">A gente cuida do tráfego. <span class="hl">Você cuida do seu negócio.</span></h2>
+    <p class="lead">Sem enrolação e sem promessa mágica. Um processo simples que já roda pra mais de 200 empresas.</p>
+    <div class="sol-grid">
+      <img class="sol-photo rv" src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/6ca8041f1d.jpg" alt="Equipe da Campanhas ON">
+      <div class="steps">
+        <div class="step rv">
+          <div class="n">1</div>
+          <div><h3>Entendemos seu negócio</h3><p>Sua oferta, sua margem e o público da sua região. Nada de campanha genérica copiada de outro cliente.</p></div>
+        </div>
+        <div class="step rv d1">
+          <div class="n">2</div>
+          <div><h3>Rodamos as campanhas</h3><p>Anúncios no Meta e no Google focados em uma coisa só: gerar conversa de cliente no seu WhatsApp.</p></div>
+        </div>
+        <div class="step rv d2">
+          <div class="n">3</div>
+          <div><h3>Você acompanha e vende</h3><p>Relatório toda semana, ajuste contínuo e um CS dedicado. Cliente entrando enquanto você atende.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CASES ===== -->
+<section class="bg-branco">
+  <div class="wrap">
+    <div class="eyebrow">Prova real</div>
+    <h2 class="sec">Números direto do gerenciador de anúncios</h2>
+    <div class="ccards">
+      <figure class="ccard rv"><div class="cshot"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/7cea014236.jpg" alt="Campanha Alô Pizza no gerenciador"></div><figcaption><div class="cbig">22,62×</div><div class="cunit">de retorno</div><div class="cinfo"><b>Alô Pizza</b><span class="cbadge">Restaurante</span></div><p>Investiu R$ 420,01 e faturou R$ 9.500,40 em vendas.</p></figcaption></figure>
+      <figure class="ccard rv d1"><div class="cshot"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/28b260fc4f.jpg" alt="Campanha Dorinha Fazenda Orgânica no gerenciador"></div><figcaption><div class="cbig">6,86×</div><div class="cunit">de retorno</div><div class="cinfo"><b>Dorinha Fazenda Orgânica</b><span class="cbadge">Fazenda de orgânicos</span></div><p>Investiu R$ 1.602,23 e faturou R$ 10.989,26 em vendas.</p></figcaption></figure>
+      <figure class="ccard rv"><div class="cshot"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/520c20750c.jpg" alt="Campanha Louwvé no gerenciador"></div><figcaption><div class="cbig">369</div><div class="cunit">conversas de clientes</div><div class="cinfo"><b>Louwvé</b><span class="cbadge">Acessórios femininos</span></div><p>R$ 2.009,09 investidos geraram 369 conversas, a R$ 5,44 cada.</p></figcaption></figure>
+      <figure class="ccard rv d1"><div class="cshot"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/16b41f5443.jpg" alt="Campanha Pizzolino no gerenciador"></div><figcaption><div class="cbig">R$ 1,83</div><div class="cunit">custo por conversa</div><div class="cinfo"><b>Pizzolino</b><span class="cbadge">Pizzaria</span></div><p>R$ 115,05 investidos geraram 63 conversas de clientes.</p></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ===== DEPOIMENTOS ===== -->
+<section class="bg-creme">
+  <div class="wrap">
+    <div class="eyebrow">O que os clientes falam</div>
+    <h2 class="sec">Feedback real, direto do WhatsApp</h2>
+    <div class="wall">
+      <figure class="rv"><div class="stack"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/4cbb3e0cad.jpg" alt="Feedback Ana Ranhel Fitness" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/716eda03a2.jpg" alt="Feedback Ana Ranhel Fitness" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/72eb8aa2f1.jpg" alt="Feedback Ana Ranhel Fitness" loading="lazy"></div><figcaption><b>Ana Ranhel Fitness</b><small>Fitness</small></figcaption></figure>
+      <figure class="rv"><div class="stack"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/de9e33e060.jpg" alt="Feedback SetPet" loading="lazy"></div><figcaption><b>SetPet</b><small>Pet shop</small></figcaption></figure>
+      <figure class="rv"><div class="stack"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/980d4e29a7.jpg" alt="Feedback Pickup Off Road" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/6f4f502c29.jpg" alt="Feedback Pickup Off Road" loading="lazy"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/5e9769e6a5.jpg" alt="Feedback Pickup Off Road" loading="lazy"></div><figcaption><b>Pickup Off Road</b><small>Acessórios automotivos</small></figcaption></figure>
+      <figure class="rv"><div class="stack"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/4c6ee7b55b.jpg" alt="Feedback Louwvé" loading="lazy"></div><figcaption><b>Louwvé</b><small>Acessórios femininos</small></figcaption></figure>
+      <figure class="rv"><div class="stack"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/db6731745a.jpg" alt="Feedback Mmartan" loading="lazy"></div><figcaption><b>Mmartan</b><small>Cama, mesa e banho</small></figcaption></figure>
+      <figure class="rv"><div class="stack"><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/166fdc362b.jpg" alt="Feedback Carsen" loading="lazy"></div><figcaption><b>Carsen</b><small>Cliente Campanhas ON</small></figcaption></figure>
+      </div>
+  </div>
+</section>
+
+<!-- ===== AUTORIDADE / SOBRAL ===== -->
+<section class="bg-creme">
+  <div class="wrap">
+    <div class="aut-grid">
+      <div class="aut-copy">
+        <div class="eyebrow">Autoridade no mercado</div>
+        <h2 class="sec">Estratégia de quem <span class="hl">treina outros gestores</span> de tráfego</h2>
+        <p class="lead">O Carlos, à frente da Campanhas ON, é <b>Consultor no Subido PRO</b>, a maior mentoria de tráfego pago para gestores do Brasil, do <b>Pedro Sobral</b>. Ou seja: ele não só roda o seu tráfego, ele treina outros gestores de tráfego do país. A estratégia que entra no seu negócio vem de quem é referência entre os próprios profissionais.</p>
+        <div class="aut-badge">🏅 Consultor Subido PRO · 2026</div>
+      </div>
+      <div class="aut-photos">
+        <figure><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/24af92bd38.jpg" alt="Carlos, Consultor Subido PRO 2026, com Pedro Sobral" loading="lazy"><figcaption>Certificação Subido PRO 2026</figcaption></figure>
+        <figure><img src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/5213c9e0b9.jpg" alt="Carlos da Campanhas ON com Pedro Sobral" loading="lazy"><figcaption>Com Pedro Sobral</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== OFERTA / METODOLOGIA ===== -->
+<section class="bg-creme">
+  <div class="wrap">
+    <div class="eyebrow">Como a gente trabalha</div>
+    <h2 class="sec">A metodologia Campanhas ON</h2>
+    <p class="lead">Três pilares sustentam tudo: transparência, suporte de verdade e estratégia com foco no seu caixa. Vai muito além de apertar botão de anúncio.</p>
+    <div class="oferta-wrap">
+      <div class="checklist">
+        <div class="check rv"><div class="ck">✓</div><div><b>Transparência total</b><p>Você entende tudo o que está acontecendo nas suas campanhas, o tempo todo.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>CS dedicado, você nunca fica no vácuo</b><p>Uma pessoa 100% responsável pelo seu atendimento, com resposta rápida. Cliente não fica abandonado.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>Estratégia com foco financeiro</b><p>No fim do mês o tráfego precisa fazer sentido no caixa, não em curtida, seguidor e visualização.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>Relatório semanal e mensal de resultados</b><p>Você acompanha a evolução real do negócio, semana a semana e mês a mês.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>Relatório de criativos ativos</b><p>Você vê na prática qual criativo está puxando resultado em cada campanha.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>Campanhas com 4 pilares</b><p>Segmentação, funil, remarketing e objetivo certo, com otimização e acompanhamento diário.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>Suporte na produção de mídias</b><p>Todo mês trazemos inspirações de criativos e mídias pro seu negócio produzir.</p></div></div>
+        <div class="check rv"><div class="ck">✓</div><div><b>Reunião estratégica trimestral (e quando você quiser)</b><p>Muitas vezes nem falamos de tráfego: comercial, CRM, criação, financeiro, administrativo e contratação.</p></div></div>
+      </div>
+      <div class="oferta-card">
+        <h3>Vamos marcar uma conversa?</h3>
+        <p>Uma reunião comercial direta com o Carlos. Ele entende seu momento, te mostra o que dá pra fazer no seu negócio e te apresenta uma proposta. Direto ao ponto.</p>
+        <a class="cta" href="https://wa.me/5564992693685?text=Ol%C3%A1!%20Vim%20pelo%20an%C3%BAncio%20e%20quero%20marcar%20uma%20conversa%20com%20o%20Carlos%20sobre%20tr%C3%A1fego%20pro%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.78 14.13c-.24.68-1.42 1.32-1.96 1.36-.5.05-.98.24-3.32-.7-2.81-1.11-4.61-3.99-4.75-4.18-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.24-.26.52-.33.7-.33.17 0 .35 0 .5.01.16.01.38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.72 1.18 1.54 1.91 1.06.94 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.69-.8.87-1.08.18-.28.36-.23.61-.14.24.09 1.55.73 1.82.86.27.14.45.21.51.32.07.11.07.63-.17 1.31Z"/></svg>
+          Falar com o Carlos
+        </a>
+        <div class="mini">⚡ Atendimento no horário comercial</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PROBLEMA ===== -->
+<section class="bg-verde">
+  <div class="wrap">
+    <div class="eyebrow">Se você se identifica com isso</div>
+    <h2 class="sec">Já gastou com anúncio e o cliente <span class="hl">não apareceu?</span></h2>
+    <p class="lead">A maioria das empresas não tem problema de produto. Tem problema de aparecer pra pessoa certa, na hora certa. É aí que a gente entra.</p>
+    <div class="dor-grid">
+      <div class="dor rv">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="M7 15l3-4 3 2 5-7"/></svg></div>
+        <h3>Anúncio que não vira venda</h3>
+        <p>Você impulsiona um post, gasta dinheiro e chega curtida, não cliente. Faltou estratégia por trás do botão.</p>
+      </div>
+      <div class="dor rv d1">
+        <div class="ico"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div>
+        <h3>Agência que some no 2º mês</h3>
+        <p>Prometeram o mundo e sumiram depois de assinar. Sem relatório, sem ajuste, sem ninguém pra falar.</p>
+      </div>
+      <div class="dor rv d2">
+        <div class="ico"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></div>
+        <h3>Concorrente na sua frente</h3>
+        <p>Quem procura seu produto na região acha o vizinho primeiro. Quem aparece, vende. Simples assim.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SOBRE ===== -->
+<section class="bg-verde">
+  <div class="wrap">
+    <div class="sobre-grid">
+      <img class="sobre-photo rv" src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/8f7b01e868.jpg" alt="Carlos, da Campanhas ON, no evento Subido PRO">
+      <div>
+        <div class="eyebrow">Quem é a Campanhas ON</div>
+        <h2 class="sec">Especialistas em quem vende pra uma região. <span class="hl">Só isso.</span></h2>
+        <p class="lead">Não somos agência que faz de tudo um pouco. Desde 2021 a gente faz uma coisa e faz bem: tráfego pago que traz cliente pra dentro do seu negócio, do comércio de bairro à empresa com várias unidades. Já são <b>mais de 200 empresas atendidas</b> e <b>mais de 1.900 empresários formados</b> no nosso curso de tráfego (TPE).</p>
+        <div class="pilares">
+          <div class="pilar rv"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="1" fill="#F16722" stroke="none"/></svg></div><div><b>Foco total</b><p>100% tráfego pago pra quem vende pra uma região. É onde a gente é forte de verdade.</p></div></div>
+          <div class="pilar rv d1"><div class="ic"><svg viewBox="0 0 24 24"><path d="M9 12l2 2 4-4"/><path d="M21 12c0 5-3.5 7.5-8.5 9C7.5 19.5 4 17 4 12V6l8-3 8 3v6z"/></svg></div><div><b>Transparência</b><p>A verdade acima de tudo. Sem lábia, sem número inflado, sem promessa que não cabe.</p></div></div>
+          <div class="pilar rv d2"><div class="ic"><svg viewBox="0 0 24 24"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg></div><div><b>Sangue no olho</b><p>Sem corpo mole. Se tem problema na campanha, a gente dá um jeito de resolver.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRA QUEM ===== -->
+<section class="bg-branco">
+  <div class="wrap center">
+    <div class="eyebrow">É pra você que quer</div>
+    <h2 class="sec center">Empresa pronta pra vender mais</h2>
+    <p class="lead" style="margin:0 auto 8px;text-align:center">Do comércio de bairro à empresa com várias unidades: se você vende pra um público de uma região, é com a gente.</p>
+    <div class="quem-grid" style="text-align:left">
+      <div class="quem rv"><div class="ic"><svg viewBox="0 0 24 24"><path d="M4 20l4-4M14 4h6v6M20 4l-8 8"/><path d="M4 14v6h6"/></svg></div><span>Escalar o negócio sem depender só de indicação</span></div>
+      <div class="quem rv d1"><div class="ic"><svg viewBox="0 0 24 24"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M11 18h2"/></svg></div><span>Encher o WhatsApp de cliente da sua região</span></div>
+      <div class="quem rv d2"><div class="ic"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg></div><span>Lotar a agenda, o salão ou a loja</span></div>
+      <div class="quem rv"><div class="ic"><svg viewBox="0 0 24 24"><path d="M6 21V9l6-5 6 5v12"/><path d="M9 21v-6h6v6"/></svg></div><span>Passar na frente do concorrente do bairro</span></div>
+      <div class="quem rv d1"><div class="ic"><svg viewBox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div><span>Ter movimento previsível todo mês</span></div>
+      <div class="quem rv d2"><div class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14s1.5 2 4 2 4-2 4-2M9 9h.01M15 9h.01"/></svg></div><span>Parar de sofrer com mês fraco</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="bg-creme">
+  <div class="wrap center">
+    <div class="eyebrow">Ainda em dúvida?</div>
+    <h2 class="sec center">Perguntas que todo dono faz</h2>
+    <div class="faq" style="text-align:left">
+      <details><summary>Quanto custa? <span class="plus">+</span></summary><div class="ans">Depende do tamanho e do momento do seu negócio. Por isso a gente conversa antes no WhatsApp e monta uma proposta sob medida, sem pacote engessado. Você sai da conversa sabendo exatamente o que vai pagar.</div></details>
+      <details><summary>Em quanto tempo vejo resultado? <span class="plus">+</span></summary><div class="ans">Tráfego pago não é mágica: é teste, ajuste e constância. A gente otimiza a campanha toda semana e você acompanha a evolução desde o começo, no relatório semanal e mensal. O foco é o resultado fazer sentido no seu caixa.</div></details>
+      <details><summary>Quanto preciso investir em anúncio? <span class="plus">+</span></summary><div class="ans">A verba de anúncio é separada dos nossos honorários e fica na sua conta, no seu controle. A gente alinha o valor ideal pro seu momento antes de começar, pra não apertar seu caixa. Nada de investir uma semana e parar na outra.</div></details>
+      <details><summary>Já tentei antes e não deu certo. Por que com vocês seria diferente? <span class="plus">+</span></summary><div class="ans">Na maioria das vezes o problema não foi o anúncio: foi falta de estratégia, de acompanhamento e de alguém olhando o comercial junto. A gente entrega tráfego com relatório semanal, CS dedicado e olhar consultivo no seu atendimento. Se depois de conversar a gente achar que não dá pra ajudar, vamos te falar isso na cara. Transparência é valor da casa.</div></details>
+      <details><summary>Vocês atendem meu tipo de negócio? <span class="plus">+</span></summary><div class="ans">A gente atende dos mais variados segmentos e portes: do comércio de bairro à empresa com várias unidades e alcance regional. Se você vende pra um público de uma região e quer mais cliente, provavelmente sim. Manda uma mensagem que a gente te fala com sinceridade.</div></details>
+      <details><summary>Vocês também fazem as artes e os vídeos? <span class="plus">+</span></summary><div class="ans">A gente acompanha e direciona os criativos de forma estratégica pra converter, e ajuda no que precisar. O material sai de acordo com o combinado no seu plano. Tudo isso a gente alinha na conversa inicial.</div></details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CTA FINAL ===== -->
+<section class="final">
+  <div class="wrap">
+    <h2>Vamos conversar?</h2>
+    <p>É uma conversa comercial direta com o Carlos pra entender seu momento e te mostrar, na real, o que dá pra fazer pelo seu negócio. Direto ao ponto.</p>
+    <a class="cta dark" href="https://wa.me/5564992693685?text=Ol%C3%A1!%20Vim%20pelo%20an%C3%BAncio%20e%20quero%20saber%20como%20a%20Campanhas%20ON%20pode%20trazer%20mais%20clientes%20pro%20meu%20neg%C3%B3cio." target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.78 14.13c-.24.68-1.42 1.32-1.96 1.36-.5.05-.98.24-3.32-.7-2.81-1.11-4.61-3.99-4.75-4.18-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.24-.26.52-.33.7-.33.17 0 .35 0 .5.01.16.01.38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.72 1.18 1.54 1.91 1.06.94 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.69-.8.87-1.08.18-.28.36-.23.61-.14.24.09 1.55.73 1.82.86.27.14.45.21.51.32.07.11.07.63-.17 1.31Z"/></svg>
+      Quero falar com o Carlos
+    </a>
+    <div class="mini">📍 Atendimento no horário comercial</div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="wrap">
+    <img class="flogo" src="https://cdn.jsdelivr.net/gh/BarbosaCarlos/cs-lp-assets@main/a7f889148c.jpg" alt="Campanhas ON" width="83" height="45">
+    <div class="fname">Gestão de Tráfego Pago</div>
+    <div class="slogan">Muito mais que tráfego pago.</div>
+    <div class="legal">
+      Campanhas ON · CNPJ 38.543.303/0001-23 · Quirinópolis-GO<br>
+      © <span id="ano">2026</span> Campanhas ON. Todos os direitos reservados.
+    </div>
+  </div>
+</footer>
+
+<!-- ===== FLOATING WHATSAPP ===== -->
+<a class="fab" href="https://wa.me/5564992693685?text=Ol%C3%A1!%20Vim%20pelo%20an%C3%BAncio%20e%20quero%20saber%20como%20a%20Campanhas%20ON%20pode%20trazer%20mais%20clientes%20pro%20meu%20neg%C3%B3cio." target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.78 14.13c-.24.68-1.42 1.32-1.96 1.36-.5.05-.98.24-3.32-.7-2.81-1.11-4.61-3.99-4.75-4.18-.14-.19-1.14-1.52-1.14-2.9 0-1.38.72-2.06.98-2.34.24-.26.52-.33.7-.33.17 0 .35 0 .5.01.16.01.38-.06.59.45.24.58.81 2 .88 2.14.07.14.12.31.02.5-.09.19-.14.31-.28.48-.14.16-.29.36-.42.48-.14.14-.28.29-.12.57.16.28.72 1.18 1.54 1.91 1.06.94 1.95 1.24 2.23 1.38.28.14.44.12.6-.07.16-.19.69-.8.87-1.08.18-.28.36-.23.61-.14.24.09 1.55.73 1.82.86.27.14.45.21.51.32.07.11.07.63-.17 1.31Z"/></svg>
+</a>
+
+<script>
+  /* marca JS ligado (habilita as animações de reveal sem esconder conteúdo se o JS falhar) */
+  document.documentElement.classList.add('js');
+
+  /* Ano automático */
+  try{document.getElementById('ano').textContent=(new Date()).getFullYear();}catch(e){}
+
+  /* Reveal on scroll */
+  (function(){
+    var els=document.querySelectorAll('.rv');
+    if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}
+    var io=new IntersectionObserver(function(en){en.forEach(function(x){if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target);}})},{threshold:.14});
+    els.forEach(function(e){io.observe(e)});
+  })();
+
+  /* Cidade dinâmica por IP — espelha a cidade do visitante.
+     Falha graciosa: mantém "na sua região". No ANÚNCIO do Google Ads, use {LOCATION(City)}. */
+  (function(){
+    try{
+      var ctrl=new AbortController();
+      var t=setTimeout(function(){ctrl.abort();},2500);
+      fetch('https://ipapi.co/json/',{signal:ctrl.signal})
+        .then(function(r){return r.ok?r.json():null;})
+        .then(function(d){
+          clearTimeout(t);
+          if(!d||!d.city)return;
+          document.querySelectorAll('.cidade-dyn').forEach(function(el){el.textContent=' · '+d.city;});
+          document.querySelectorAll('.cidade-txt').forEach(function(el){el.textContent='em '+d.city;});
+        }).catch(function(){clearTimeout(t);});
+    }catch(e){}
+  })();
+</script>
+
+<script>
+function _ph(){try{parent.postMessage({lph:document.documentElement.scrollHeight},'*')}catch(e){}}
+addEventListener('load',_ph);addEventListener('resize',_ph);setInterval(_ph,800);
+try{new ResizeObserver(_ph).observe(document.body)}catch(e){}
+</script>
+</body>
+</html>
